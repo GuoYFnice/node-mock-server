@@ -1,0 +1,5 @@
+# 取消排队
+GET http://192.168.3.206:9527/queue/query HTTP/1.1
+
+# 查询排队信息
+GET http://192.168.3.206:9527/queue/cancel HTTP/1.1
